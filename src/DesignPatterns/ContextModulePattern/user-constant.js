@@ -1,0 +1,1 @@
+export const UPDATE_NAME_FIELD = 'UPDATE_NAME_FIELD';

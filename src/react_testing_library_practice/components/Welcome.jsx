@@ -15,7 +15,7 @@ const Welcome = props => {
         <h1>
           Welcome, {values.firstName} {values.lastName}
         </h1>
-  
+
         <form name="userName">
           <label>
             First Name
@@ -25,18 +25,20 @@ const Welcome = props => {
               onChange={handleChange}
             />
           </label>
-  
+
           <label>
             Last Name
             <input
               value={values.lastName}
               name="lastName"
               onChange={handleChange}
+              placeholder="Last Name"
             />
           </label>
+          <p>{`${values.firstName} ${values.lastName}`}</p>
         </form>
       </div>
-    )
+    );
   }
   
   export default Welcome;

@@ -12,6 +12,11 @@ const Counter = () => {
   return (
     <div>
       <p>Count: {count}</p>
+      <label>
+        <span>Username</span>
+        <input />
+      </label>
+      <button onClick={handleIncrement}>Increment</button>
       <button onClick={handleIncrement}>Increment</button>
     </div>
   );
