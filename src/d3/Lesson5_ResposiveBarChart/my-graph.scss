@@ -1,0 +1,13 @@
+.graph-container{
+  display: flex;
+  padding: 0 50px;
+  flex-direction: column;
+  align-items: stretch;
+  height: 100vh;
+  max-width: 500px;
+}
+svg {
+  background: #eee;
+  overflow: visible;
+  width: 100%;
+}

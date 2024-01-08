@@ -16,6 +16,13 @@ import UseEffectExercise3 from "./react-methods/hooks/useEffect/UseEffectExercis
 import UseEffectExercise4 from "./react-methods/hooks/useEffect/UseEffectExercise4";
 import ListOfComponent from "./ListOfComponent";
 import Posts from "./react-methods/hooks/useEffect/Posts";
+import Circle from './d3/Lesson1/Circle';
+import ConnectedLine from "./d3/Lesson2/ConnectedLine";
+import BarChartMain from "./d3/Lesson3/chatGpt/BarChartMain";
+import Lesson3BarChart from "./d3/Lesson3/Lesson3BarChart";
+import BarChartInteractive from "./d3/Lesson4_BasicInteractivity/BarChartInteractive";
+import BarChartResponsive from "./d3/Lesson5_ResposiveBarChart/BarChartResponsive";
+import BarChartResponsiveMain from "./d3/Lesson5_ResposiveBarChart/BarChartResponsiveMain";
 
 const listOfComponents = [
   {
@@ -45,6 +52,30 @@ const listOfComponents = [
   {
     path: "list/UseEffectExercise4",
     element: <UseEffectExercise4 />,
+  },
+  {
+    path: "list/Circle",
+    element: <Circle />,
+  },
+  {
+    path: "list/ConnectedLine",
+    element: <ConnectedLine />,
+  },
+  {
+    path: "list/BarChartMain",
+    element: <BarChartMain />,
+  },
+  {
+    path: "list/Lesson3BarChart",
+    element: <Lesson3BarChart />,
+  },
+  {
+    path: "list/BarChartInteractive",
+    element: <BarChartInteractive />,
+  },
+  {
+    path: "list/BarChartResponsiveMain",
+    element: <BarChartResponsiveMain />,
   },
 ];
 
