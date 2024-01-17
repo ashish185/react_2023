@@ -23,6 +23,9 @@ import Lesson3BarChart from "./d3/Lesson3/Lesson3BarChart";
 import BarChartInteractive from "./d3/Lesson4_BasicInteractivity/BarChartInteractive";
 import BarChartResponsive from "./d3/Lesson5_ResposiveBarChart/BarChartResponsive";
 import BarChartResponsiveMain from "./d3/Lesson5_ResposiveBarChart/BarChartResponsiveMain";
+import MySkillBarChart from "./d3/Lesson5_ResposiveBarChart/MySkillBarChartMain";
+import MySkillBarChartMain from "./d3/Lesson5_ResposiveBarChart/MySkillBarChartMain";
+import Demo from "./demo/demo";
 
 const listOfComponents = [
   {
@@ -76,6 +79,14 @@ const listOfComponents = [
   {
     path: "list/BarChartResponsiveMain",
     element: <BarChartResponsiveMain />,
+  },
+  {
+    path: "list/MySkillBarChartMain",
+    element: <MySkillBarChartMain />,
+  },
+  {
+    path: "list/Demo",
+    element: <Demo />,
   },
 ];
 
