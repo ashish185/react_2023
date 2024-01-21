@@ -2,8 +2,8 @@ const express = require('express');
 const app = express();
 
 app.use((req, res, next) => {
-    res.setHeader('Content-Security-Policy', "frame-ancestors 'self' http://localhost:5011;")
-
+  res.setHeader('Content-Security-Policy', "frame-ancestors 'self' http://localhost:5011/iframe-webiste1 'none';");
+    // res.setHeader('Content-Security-Policy', "frame-ancestors 'self' http://localhost:5011;")
     res.cookie('sessionID', '12345', {
         httpOnly: true,
         secure: true,
@@ -11,8 +11,6 @@ app.use((req, res, next) => {
       });
     next();
 })
-
-
 
 // Serve static files (optional)
 app.use(express.static('public'));
