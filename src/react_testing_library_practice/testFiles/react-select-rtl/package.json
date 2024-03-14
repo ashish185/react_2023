@@ -1,5 +1,5 @@
 {
-  "name": "react_2023",
+  "name": "For_react_select",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -14,16 +14,11 @@
     "docz:dev": "docz dev",
     "docz:build": "docz build",
     "cosmos": "cosmos",
-    "cosmos-export": "cosmos-export",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "cosmos-export": "cosmos-export"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.7",
     "@testing-library/user-event": "^14.5.2",
-    "d3": "^7.8.5",
-    "localforage": "^1.10.0",
-    "match-sorter": "^6.3.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-redux": "^8.1.3",

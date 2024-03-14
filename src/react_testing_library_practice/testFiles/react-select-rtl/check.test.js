@@ -3,6 +3,11 @@ import React from "react";
 import { render, screen } from "@testing-library/react";
 import Select from "react-select";
 import selectEvent from "react-select-event";
+global.MutationObserver = class {
+  constructor(callback) {}
+  disconnect() {}
+  observe(element, initObject) {}
+};
 
 test("React Select works!", async () => {
   const OPTIONS = [
